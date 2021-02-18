@@ -13,6 +13,7 @@ import System.Exit ( exitSuccess )
 import XMonad
 import qualified XMonad.StackSet as W
 import XMonad.Util.WorkspaceCompare
+
 -- Added by Dino
 import XMonad.Hooks.DynamicLog ( PP (ppLayout, ppSort, ppTitle
    , ppTitleSanitize, ppVisible), statusBar, wrap )
@@ -33,7 +34,7 @@ import XMonad.Util.SpawnOnce
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal      = "kitty"
+myTerminal      = "x-terminal-emulator"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
